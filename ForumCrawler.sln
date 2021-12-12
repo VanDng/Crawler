@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForumCrawler", "Crawler\Src\ForumCrawler\ForumCrawler.csproj", "{5A96B350-02C0-4072-8A37-672FE99DB30A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandCenter", "CommandCenter", "{74392B79-EB8B-4E1A-8528-9756CFAFB7F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crawler", "Crawler", "{99AE09FA-81E1-4016-AD00-CB1A4E814286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{AE1D8E7D-835E-47A6-9CE1-C438056B3207}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ForumCrawler", "ForumCrawler", "{9F80623C-5014-40C8-951D-93A9599058A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedComponent", "SharedComponent", "{1139E6CD-C4E8-4C52-A856-37F949F1417B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForumClient", "SharedComponent\ForumClient\ForumConnector.csproj", "{091FEC63-2453-4EDD-93A2-5629BB92FF8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A96B350-02C0-4072-8A37-672FE99DB30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A96B350-02C0-4072-8A37-672FE99DB30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A96B350-02C0-4072-8A37-672FE99DB30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A96B350-02C0-4072-8A37-672FE99DB30A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091FEC63-2453-4EDD-93A2-5629BB92FF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091FEC63-2453-4EDD-93A2-5629BB92FF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091FEC63-2453-4EDD-93A2-5629BB92FF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091FEC63-2453-4EDD-93A2-5629BB92FF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A96B350-02C0-4072-8A37-672FE99DB30A} = {9F80623C-5014-40C8-951D-93A9599058A1}
+		{AE1D8E7D-835E-47A6-9CE1-C438056B3207} = {99AE09FA-81E1-4016-AD00-CB1A4E814286}
+		{9F80623C-5014-40C8-951D-93A9599058A1} = {AE1D8E7D-835E-47A6-9CE1-C438056B3207}
+		{091FEC63-2453-4EDD-93A2-5629BB92FF8B} = {1139E6CD-C4E8-4C52-A856-37F949F1417B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {262F093B-48BE-41CF-A4E1-93C9A8267CC9}
+	EndGlobalSection
+EndGlobal
