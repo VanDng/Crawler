@@ -1,0 +1,3 @@
+[submodule "ExternalLib/UniverlForumClient"]
+	path = ExternalLib/UniverlForumClient
+	url = https://github.com/VanDng/UniversalForumClient.git
